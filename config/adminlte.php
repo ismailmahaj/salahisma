@@ -71,7 +71,7 @@ return [
     |
     */
 
-    'collapse_sidebar' => false,
+    'collapse_sidebar' => true,
 
     /*
     |--------------------------------------------------------------------------
@@ -85,7 +85,7 @@ return [
     |
     */
 
-    'dashboard_url' => 'home',
+    'dashboard_url' => 'admin',
 
     'logout_url' => 'logout',
 
@@ -123,6 +123,11 @@ return [
             'icon'        => 'far fa-file',
             'label'       => 4,
             'label_color' => 'success',
+            'submenu'=>[
+                [
+                'text' => 'home',
+                ]
+            ]
         ],
         ['header' => 'account_settings'],
         [
