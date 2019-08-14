@@ -19,3 +19,4 @@ Auth::routes();
 
 Route::get('/admin', 'HomeController@index')->name('home');
 Route::resource('/admin/about', 'AboutsController');
+Route::resource('/admin/interest', 'InterestsController');

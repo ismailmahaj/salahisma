@@ -146,6 +146,17 @@ return [
                 [
                     'text' => 'my interest',
                     'url'  => 'admin/interest',
+                    'submenu' => [
+                        [
+                            'text' => 'create',
+                            'url'  => 'admin/interest/create',
+                        ],
+                        [
+                            'text' => 'edit',
+                            'url'  => 'admin/interest/1/edit',
+                        ],
+
+                    ],
                 ],
                 [
                     'text' => 'my service',
