@@ -32,41 +32,6 @@
     </head>
     <body>
 
-		<!--Theme Options Start-->
-        <div class="style-options">
-            <div class="toggle-btn">
-                <span><i class="fas fa-cog"></i></span>
-            </div>
-            <div class="style-menu">
-                <div class="style-nav">
-                    <h4 class="mt-15 mb-10">Menu Position</h4>
-                    <ul>
-						<li><a href="css/settings/top-nav.css"><i class="fas fa-caret-up"></i> Top</a></li>
-                        <li><a href="css/settings/left-nav.css"><i class="fas fa-caret-left"></i> Left</a></li>
-                        <li><a href="css/settings/right-nav.css"><i class="fas fa-caret-right"></i> Right</a></li>
-                        <li><a href="css/settings/bottom-nav.css"><i class="fas fa-caret-down"></i> Bottom</a></li>
-                    </ul>
-                </div>
-				<div class="style-back">
-                    <h4 class="mt-85 mb-10">Style Color</h4>
-                    <ul>
-                        <li><a href="css/style-dark.css"><i class="fas fa-moon"></i> Dark</a></li>
-                        <li><a href="css/style-light.css"><i class="far fa-lightbulb"></i> Light</a></li>
-                    </ul>
-                </div>
-				<div class="style-color">
-                    <h4 class="mt-55 mb-10">Theme Color</h4>
-                    <ul>
-                        <li><a href="css/settings/green-color.css" style="background-color: #25ca7f;"></a></li>
-						<li><a href="css/settings/blue-color.css" style="background-color: #00a3e1;"></a></li>
-                        <li><a href="css/settings/red-color.css" style="background-color: #d94c48;"></a></li>
-                        <li><a href="css/settings/purple-color.css" style="background-color: #bb68c8;"></a></li>
-						<li><a href="css/settings/sea-color.css" style="background-color: #0dcdbd;"></a></li>
-                        <li><a href="css/settings/yellow-color.css" style="background-color: #eae328;"></a></li>
-                    </ul>
-                </div>
-            </div>
-        </div>
 
 		<!-- Preloader -->
 		<div id="preloader">
@@ -134,17 +99,17 @@
 			 </nav>
 
 			<!-- Home Section -->
-          	<div class="pt-home" style="background-image: url('img/home-bg.jpg')">
+          	<div class="pt-home" style="background-image: url('img/home1-bg.jpg')">
              	<section>
 
 					<!-- Banner -->
 					<div class="banner">
-  						<h1>Alex Smith</h1>
+  						<h1>Impulse Agency</h1>
 						<p class="cd-headline rotate-1">
 							<span>I am a</span>
 							<span class="cd-words-wrapper">
 								<b class="is-visible">Developer</b>
-								<b>Photographer</b>
+
 								<b>Designer</b>
 								<b>Freelancer</b>
 							</span>

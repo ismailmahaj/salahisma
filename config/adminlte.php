@@ -124,6 +124,43 @@ return [
             'label'       => 4,
             'label_color' => 'success',
         ],
+        [
+            'text'    => 'About',
+            'icon'    => 'fas fa-fw fa-share',
+            'submenu' => [
+                [
+                    'text' => 'about me',
+                    'url'  => 'admin/about',
+                    'submenu' => [
+                        [
+                            'text' => 'create',
+                            'url'  => 'admin/about/create',
+                        ],
+                        [
+                            'text' => 'edit',
+                            'url'  => 'admin/about/1/edit',
+                        ],
+
+                ],
+],
+                [
+                    'text' => 'my interest',
+                    'url'  => 'admin/interest',
+                ],
+                [
+                    'text' => 'my service',
+                    'url'  => 'admin/service',
+                ],
+                [
+                    'text' => 'temoignage',
+                    'url'  => 'admin/temoignage',
+                ],
+                [
+                    'text' => 'price',
+                    'url'  => 'admin/price',
+                ],
+            ],
+        ],
         ['header' => 'account_settings'],
         [
             'text' => 'profile',
