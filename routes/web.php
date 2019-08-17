@@ -17,4 +17,10 @@ Route::get('/', function () {
 
 Auth::routes();
 
-Route::get('/home', 'HomeController@index')->name('home');
+Route::get('/admin', 'HomeController@index')->name('home');
+Route::resource('/accueil','AccueilController');
+Route::resource('/backgroundImage','BackgroundImageController');
+Route::get('form',function(){
+    return view('form');
+});
+
