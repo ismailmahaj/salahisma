@@ -103,7 +103,7 @@ class BackgroundImageController extends Controller
     {
         Storage::disk('images')->delete($backgroundImage->image);
 
-        $backgroundImage->truncate();
+        $backgroundImage->delete();
         return redirect('accueil');
     }
 }

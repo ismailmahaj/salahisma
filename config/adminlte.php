@@ -127,12 +127,19 @@ return [
                 [
                 'text' => 'home',
                  'submenu' => [
-                     [
-                         'text' =>  'Background',
-                         'url'  => 'accueil',
-                     ]
+                         [
+                             'text' =>  'Background',
+                             'url'  => 'accueil',
+                         ],
+                         [
+                             'text' =>  'Blogs',
+                             'url'  => 'blogs',
+                         ],
 
                      ]
+
+
+
                 ]
             ]
         ],

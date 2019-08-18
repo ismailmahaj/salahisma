@@ -18,9 +18,14 @@ Route::get('/', function () {
 Auth::routes();
 
 Route::get('/admin', 'HomeController@index')->name('home');
-Route::resource('/accueil','AccueilController');
-Route::resource('/backgroundImage','BackgroundImageController');
+
 Route::get('form',function(){
     return view('form');
 });
 
+
+Route::resources([
+    '/accueil'=>'AccueilController',
+    'backgroundImage'=>'BackgroundImageController',
+    'blogs'=>'BlogController',
+]);

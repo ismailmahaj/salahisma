@@ -1,4 +1,4 @@
-@extends('home')
+@extends('adminlte::page')
 @section('header')
 @endsection
 @section('content')
