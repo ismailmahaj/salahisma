@@ -13,6 +13,7 @@
         "jeroennoten/laravel-adminlte": "^1.26",
         "laravel/framework": "5.8.*",
         "laravel/tinker": "^1.0",
+        "s-ichikawa/laravel-sendgrid-driver": "^2.0",
         "unisharp/laravel-ckeditor": "^4.7"
     },
     "require-dev": {

@@ -166,6 +166,8 @@ return [
          * Package Service Providers...
          */
         Unisharp\Ckeditor\ServiceProvider::class,
+        Sichikawa\LaravelSendgridDriver\SendgridTransportServiceProvider::class,
+
 
         /*
          * Application Service Providers...

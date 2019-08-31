@@ -1085,7 +1085,8 @@
 					<div class="row mt-100">
 						<div class="col-lg-12 col-sm-12">
 							<div class="contact-form ">
-                        		<form method="post" class="box contact-valid" id="contact-form">
+                        		<form method="post" action="/notifications" class="box contact-valid" >
+                                    @csrf
 									<div class="row">
                             			<div class="col-lg-6 col-sm-12">
                                 			<input type="text" name="name" id="name" class="form-control" placeholder="Name *">
@@ -1094,7 +1095,7 @@
                                 			<input type="email" name="email" id="email" class="form-control" placeholder="Email *">
                             			</div>
                             			<div class="col-lg-12 col-sm-12">
-                                			<textarea class="form-control" name="note"  id="note" placeholder="Your Message"></textarea>
+                                			<textarea class="form-control" name="message"  id="note" placeholder="Your Message"></textarea>
                             			</div>
                              			<div class="col-lg-12 col-sm-12 text-center">
                                 			<button type="submit" class="btn-st">Send Message</button>

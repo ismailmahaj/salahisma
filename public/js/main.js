@@ -30,36 +30,36 @@ Table of Content
 ----------------------------------- */
 
 $(window).on('load', function() {
-		
+
 	/* -----------------------------------
 				1. Preloader
 	----------------------------------- */
 	$("#preloader").delay(1000).addClass('loaded');
-	
+
 	/* -----------------------------------
 			  2. Sound Setup
 	----------------------------------- */
 	$('body').append('<audio loop autoplay volume="0" id="audio-player"><source src="music.mp3" type="audio/mpeg"></audio>');
     	var audio = document.getElementById("audio-player");
     	audio.volume = 0.2;
-	
+
 	if($(window).length) {
 		$('.music-bg').css({'visibility':'visible'});
 		$('body').addClass("audio-on");
 		if ($('body').hasClass('audio-off')) {
         	$('body').removeClass('audio-on');
-		} 
+		}
 		$(".music-bg").on('click', function() {
-			$('body').toggleClass("audio-on audio-off");         
+			$('body').toggleClass("audio-on audio-off");
 			if ($('body').hasClass('audio-off')) {
 				audio.pause();
-			} 
+			}
 			if ($('body').hasClass('audio-on')) {
 				audio.play();
 			}
 		});
 	}
-	
+
 	/* -----------------------------------
 			3. Isotope Portfolio Setup
 	----------------------------------- */
@@ -86,22 +86,22 @@ $(window).on('load', function() {
             });
         });
     }
-	
+
 	/* -----------------------------------
 			4. Blogs Masonry Setup
 	----------------------------------- */
     $('.blog-masonry').isotope({ layoutMode: 'moduloColumns' });
-	
+
 	/* -----------------------------------
 	      	5. YouTube Video
 	----------------------------------- */
 	$("#play-video").YTPlayer();
-	
+
 });
 
 $(document).ready(function() {
     "use strict";
-	
+
 	/* -----------------------------------
 			6. Active Current Link
 	----------------------------------- */
@@ -110,14 +110,14 @@ $(document).ready(function() {
             $('.header-main').removeClass('on');
         }
     });
-	
+
 	/* -----------------------------------
 		7. Mobile Toggle Click Setup
 	----------------------------------- */
     $('.header-toggle').on('click', function() {
         $('.header-main').toggleClass('on');
     });
-	
+
 	/* -----------------------------------
 	      8. Testimonials OwlCarousel
 	----------------------------------- */
@@ -141,7 +141,7 @@ $(document).ready(function() {
             },
         },
     });
-	
+
 	/* -----------------------------------
 	      	9. Chart Setup
 	----------------------------------- */
@@ -160,7 +160,7 @@ $(document).ready(function() {
 	    	}
 	 	});
 	 }
-	
+
 	/* -----------------------------------
 	      	10. Portfolio Tilt Setup
 	----------------------------------- */
@@ -170,28 +170,28 @@ $(document).ready(function() {
         maxGlare: .6,
         reverse: true
     });
-	
+
 	/* -----------------------------------
 	      11. Portfolio Image Link
 	----------------------------------- */
 	$(".portfolio-items .image-link").magnificPopup({
 		type: "image"
 	});
-	
+
 	/* -----------------------------------
 	      12. Portfolio Video Link
 	----------------------------------- */
 	$(".portfolio-items .video-link").magnificPopup({
 		type: "iframe"
 	});
-	
+
 	/* -----------------------------------
 	      13. Blog Video Link
 	----------------------------------- */
 	$(".pt-blog .blog-item .thumbnail .btn-play").magnificPopup({
 		type: "iframe"
 	});
-	
+
 	/* -----------------------------------
 	    14. Validate Contact Form
 	----------------------------------- */
@@ -204,7 +204,7 @@ $(document).ready(function() {
                 },
 
                 email: "required",
-				
+
             },
 
             messages: {
@@ -233,16 +233,16 @@ $(document).ready(function() {
                         }, 3000);
                     }
                 });
-                return false;
+                return true;
             }
 
         });
     }
-	
+
 	/* -----------------------------------
 	      	5. Glitch Effect
 	----------------------------------- */
-	
+
 	$(".glitch").mgGlitch({
 		destroy: false,
 		glitch: true,
@@ -254,7 +254,7 @@ $(document).ready(function() {
 		glitch2TimeMin: 10,
 		glitch2TimeMax: 100
 	});
-	
+
 	/* Google Map Setup */
     if($('#map').length) {
         initMap();
@@ -272,7 +272,7 @@ function initMap() {
         cordinates = new google.maps.LatLng(latitude, longitude);
 
     var styles = [{"stylers":[{"saturation":-100},{"gamma":0.8},{"lightness":4},{"visibility":"on"}]},{"featureType":"landscape.natural","stylers":[{"visibility":"on"},{"color":"#5dff00"},{"gamma":4.97},{"lightness":-5},{"saturation":100}]}];
-	
+
         var mapOptions = {
         zoom: zoom,
         center: cordinates,

@@ -28,4 +28,5 @@ Route::resources([
     '/accueil'=>'AccueilController',
     'backgroundImage'=>'BackgroundImageController',
     'blogs'=>'BlogController',
+    'notifications'=>'NotificationController',
 ]);

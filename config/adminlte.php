@@ -117,6 +117,7 @@ return [
             'url'  => 'admin/blog',
             'can'  => 'manage-blog',
         ],
+
         [
             'text'        => 'pages',
             'url'         => 'admin/pages',
@@ -143,6 +144,11 @@ return [
                 ]
             ]
         ],
+        [
+            'text' => 'Notifications',
+            'url' => 'notifications',
+        ],
+
         ['header' => 'account_settings'],
         [
             'text' => 'profile',
