@@ -29,4 +29,5 @@ Route::resources([
     'backgroundImage'=>'BackgroundImageController',
     'blogs'=>'BlogController',
     'notifications'=>'NotificationController',
+    'portfolios'=>'PortfolioController',
 ]);

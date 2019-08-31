@@ -1,5 +1,7 @@
 <?php
 
+use App\Portfolio;
+
 return [
 
     /*
@@ -135,6 +137,10 @@ return [
                          [
                              'text' =>  'Blogs',
                              'url'  => 'blogs',
+                         ],
+                         [
+                             'text'=>'Portfolio',
+                             'url'=>'portfolios',
                          ],
 
                      ]
