@@ -11,9 +11,8 @@
 |
 */
 
-Route::get('/', function () {
-    return view('welcome');
-});
+Route::get('/','FrontController@showRessources');
+
 
 Auth::routes();
 
@@ -29,4 +28,6 @@ Route::resources([
     'backgroundImage'=>'BackgroundImageController',
     'blogs'=>'BlogController',
     'notifications'=>'NotificationController',
+    'portfolios'=>'PortfolioController',
+    'showBlogs'=>'ShowBlogsController', // Code Poubelle en attente de refacto
 ]);
