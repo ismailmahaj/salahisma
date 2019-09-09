@@ -5,6 +5,7 @@ namespace App\Http\Controllers;
 use App\Portfolio;
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Storage;
+use Intervention\Image\Facades\Image;
 
 class PortfolioController extends Controller
 {
@@ -43,6 +44,7 @@ class PortfolioController extends Controller
         $portfolio->link = $request->link;
         $portfolio->name = $request->name;
         $portfolio->tag = $request->tag;
+
         $portfolio->save();
         return redirect('portfolios');
     }
@@ -80,8 +82,8 @@ class PortfolioController extends Controller
     {
         Storage::disk('images')->delete($portfolio->image);
         $path = Storage::disk('images')->put('',$request->file('image'));
-
-        $portfolio->image = $path;
+        $img = Image::make($path)->resize(350,350);
+        $portfolio->image = $img;
         $portfolio->link = $request->link;
         $portfolio->name = $request->name;
         $portfolio->tag = $request->tag;
