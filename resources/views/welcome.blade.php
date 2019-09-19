@@ -884,7 +884,7 @@
                             		<li><a href="#">{{$blog->cat}}</a></li>
                             	</ul>
 								<div class="blog-btn">
-									<a href="showBlogs/{{$blog->id}}" class="btn-st">Read More</a>
+									<a href="/showBlogs/{{$blog->id}}" class="btn-st">Read More</a>
 								</div>
 							</div>
 						</div>
