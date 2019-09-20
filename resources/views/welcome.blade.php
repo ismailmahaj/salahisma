@@ -876,7 +876,7 @@
 						<div class="col-lg-4 col-sm-6">
 							<div class="blog-item">
 								<div class="thumbnail">
-									<a href="single-blog.html"><img class="img-responsive" style="width: 350px;height: 206px;" alt="" src="{{asset('images/'.$blog->image)}}"></a>
+									<img class="img-responsive" style="width: 350px;height: 206px;" alt="" src="{{asset('images/'.$blog->image)}}">
 								</div>
 								<h4><a href="single-blog.html">{{$blog->title}}</a></h4>
 								<ul>

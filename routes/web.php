@@ -1,5 +1,5 @@
 <?php
-
+use App\Blog;
 /*
 |--------------------------------------------------------------------------
 | Web Routes
@@ -32,8 +32,25 @@ Route::resources([
     '/showBlogs'=>'ShowBlogsController', // Code Poubelle en attente de refacto
 ]);
 
+// fonctions pour naviguer dans les blog (previous et next)
 Route::get('nextBlog/{id}',function($id){
-    $nextBlog = $id+1;
+    $latest = Blog::latest('created_at')->first();
+    $first = Blog::first('created_at')->first();
+    if($id == $latest->id)
+        $nextBlog = $first->id;
+    else
+        $nextBlog = $id+1;
 
     return redirect('/showBlogs/'.$nextBlog);
+});
+
+Route::get('previousBlog/{id}',function($id){
+    $latest = Blog::latest('created_at')->first();
+    $first = Blog::first('created_at')->first();
+    if($id==$first->id)
+        $prevBlog = $latest->id;
+    else
+        $prevBlog  = $id-1;
+
+    return redirect('/showBlogs/'.$prevBlog);
 });

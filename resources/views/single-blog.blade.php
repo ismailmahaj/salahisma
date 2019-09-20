@@ -116,10 +116,10 @@
 <!--Blog Page-->
 <div class="blog-page " data-simplebar>
     <nav class="blog-nav">
-        <a href="#" data-tooltip="prev" data-position="left">
+        <a href="/previousBlog/{{$blog->id}}" data-tooltip="prev" data-position="left">
             <i class="fas fa-long-arrow-alt-left"></i>
         </a>
-        <a href="index.html#blog">
+        <a href="/#blog">
             <i class="fas fa-bars"></i>
         </a>
         <a href="/nextBlog/{{$blog->id}}" data-tooltip="next" data-position="right">
