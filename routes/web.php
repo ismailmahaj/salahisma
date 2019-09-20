@@ -29,5 +29,11 @@ Route::resources([
     'blogs'=>'BlogController',
     'notifications'=>'NotificationController',
     'portfolios'=>'PortfolioController',
-    'showBlogs'=>'ShowBlogsController', // Code Poubelle en attente de refacto
+    '/showBlogs'=>'ShowBlogsController', // Code Poubelle en attente de refacto
 ]);
+
+Route::get('nextBlog/{id}',function($id){
+    $nextBlog = $id+1;
+
+    return redirect('/showBlogs/'.$nextBlog);
+});
