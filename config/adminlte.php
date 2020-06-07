@@ -1,5 +1,7 @@
 <?php
 
+use App\Portfolio;
+
 return [
 
     /*
@@ -71,7 +73,7 @@ return [
     |
     */
 
-    'collapse_sidebar' => false,
+    'collapse_sidebar' => true,
 
     /*
     |--------------------------------------------------------------------------
@@ -117,13 +119,42 @@ return [
             'url'  => 'admin/blog',
             'can'  => 'manage-blog',
         ],
+
         [
             'text'        => 'pages',
             'url'         => 'admin/pages',
             'icon'        => 'far fa-file',
             'label'       => 4,
             'label_color' => 'success',
+            'submenu'=>[
+                [
+                'text' => 'home',
+                 'submenu' => [
+                         [
+                             'text' =>  'Background',
+                             'url'  => 'accueil',
+                         ],
+                         [
+                             'text' =>  'Blogs',
+                             'url'  => 'blogs',
+                         ],
+                         [
+                             'text'=>'Portfolio',
+                             'url'=>'portfolios',
+                         ],
+
+                     ]
+
+
+
+                ]
+            ]
         ],
+        [
+            'text' => 'Notifications',
+            'url' => 'notifications',
+        ],
+
         ['header' => 'account_settings'],
         [
             'text' => 'profile',

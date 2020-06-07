@@ -1,9 +1,10 @@
 @extends('adminlte::page')
 
 @section('title', 'AdminLTE')
-
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
 @section('content_header')
-    <h1>Dashboard</h1>
+
+
 @stop
 
 @section('content')
