@@ -22,15 +22,20 @@ Route::get('form',function(){
     return view('form');
 });
 
+Route::resources(['/showBlogs'=>'ShowBlogsController']); // Code Poubelle en attente de refacto
+Route::prefix("")->middleware('auth')->group(function(){
+    Route::resources([
+        'accueil'=>'AccueilController',
+        'backgroundImage'=>'BackgroundImageController',
+        'blogs'=>'BlogController',
+        'notifications'=>'NotificationController',
+        'portfolios'=>'PortfolioController',
+        //'/blogs'=>'BlogController'
+        
+    ]);
+});
 
-Route::resources([
-    '/accueil'=>'AccueilController',
-    'backgroundImage'=>'BackgroundImageController',
-    'blogs'=>'BlogController',
-    'notifications'=>'NotificationController',
-    'portfolios'=>'PortfolioController',
-    '/showBlogs'=>'ShowBlogsController', // Code Poubelle en attente de refacto
-]);
+
 
 // fonctions pour naviguer dans les blog (previous et next)
 Route::get('nextBlog/{id}',function($id){

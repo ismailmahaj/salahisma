@@ -44,7 +44,7 @@ class BlogController extends Controller
         $blog->cat = $request->cat;
         $blog->image = $path;
         $blog->save();
-        return redirect('blogs');
+        return redirect('/blogs');
 
     }
 

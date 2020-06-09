@@ -26,7 +26,7 @@ class BackgroundImageController extends Controller
      */
     public function create()
     {
-        //
+        return view('backGround_crud/create');
     }
 
     /**
@@ -37,6 +37,7 @@ class BackgroundImageController extends Controller
      */
     public function store(Request $request)
     {
+        dd($request);
         $background = new BackgroundImage();
 
         $path = Storage::disk('images')->put('', $request->file('image'));
@@ -47,7 +48,7 @@ class BackgroundImageController extends Controller
 //        dd( $background->image);
 
 
-        return redirect('/accueil');
+        return redirect('accueil');
 
     }
 
