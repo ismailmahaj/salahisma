@@ -3,7 +3,7 @@
 <div class="container">
     <div width="50%" class="row  d-flex justify-content-center ">
         <div class=" box box-body box-danger d-flex flex-column justify-content-center">
-            <form method="post" action="backGroundImage" enctype="multipart/form-data">
+            <form method="post" action="/backgroundImage" enctype="multipart/form-data">
                 @csrf
                 <h3>Agency Name</h3>
                 <input name="agencyName" type="text">

@@ -120,7 +120,7 @@
           		</ul>
 
 				<!-- Sound wave -->
-    			<a class="music-bg">
+    			<!-- <a class="music-bg">
       				<div class="lines">
         				<span></span>
         				<span></span>
@@ -130,7 +130,7 @@
 						<span></span>
       				</div>
 					<p> Sound </p>
-    			</a>
+    			</a> -->
 			 </nav>
 
 			<!-- Home Section -->
@@ -152,20 +152,20 @@
 					</div>
 
 					<!-- Language -->
-					<div class="lang">
+					<!-- <div class="lang">
                 		<ul>
                    			<li><a href="#" class="active">eng</a></li>
                     		<li><a href="#">rus</a></li>
                 		</ul>
-            		</div>
+            		</div> -->
 
 					<!-- Social -->
 					<div class="social">
             			<ul>
-                			<li><a href="#"><i class="fab fa-facebook-f"></i></a></li>
+                			
                 			<li><a href="#"><i class="fab fa-twitter"></i></a></li>
                 			<li><a href="#"><i class="fab fa-instagram"></i></a></li>
-							<li><a href="#"><i class="fab fa-youtube"></i></a></li>
+							<li><a href="#"><i class="fa fa-linkedin" ></i></a></li>
             			</ul>
         			</div>
 			  	</section>

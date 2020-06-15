@@ -37,7 +37,7 @@ class BackgroundImageController extends Controller
      */
     public function store(Request $request)
     {
-        dd($request);
+       
         $background = new BackgroundImage();
 
         $path = Storage::disk('images')->put('', $request->file('image'));
@@ -45,7 +45,7 @@ class BackgroundImageController extends Controller
 
         $background->agencyName = $request->agencyName;
         $background->save();
-//        dd( $background->image);
+     
 
 
         return redirect('accueil');

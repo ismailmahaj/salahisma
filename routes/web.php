@@ -23,7 +23,7 @@ Route::get('form',function(){
 });
 
 Route::resources(['/showBlogs'=>'ShowBlogsController']); // Code Poubelle en attente de refacto
-Route::prefix("")->middleware('auth')->group(function(){
+Route::prefix("/")->middleware('auth')->group(function(){
     Route::resources([
         'accueil'=>'AccueilController',
         'backgroundImage'=>'BackgroundImageController',
