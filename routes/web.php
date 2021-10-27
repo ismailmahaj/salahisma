@@ -12,6 +12,8 @@ use App\Blog;
 */
 
 Route::get('/','FrontController@showRessources');
+Route::get('/medic/{fileName}','PdfFileController@GetPdf');
+
 
 
 Auth::routes();

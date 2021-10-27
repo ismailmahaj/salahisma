@@ -8,6 +8,7 @@
     <title>Document</title>
 </head>
 <body>
+    <p>Message de {{$email->email}}</p>
     {{$email->message}}
 </body>
 </html>

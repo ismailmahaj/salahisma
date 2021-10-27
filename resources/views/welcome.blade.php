@@ -15,12 +15,13 @@
 		<!-- CSS Plugins -->
         <link rel="stylesheet" href="css/plugins/bootstrap.min.css">
         <link rel="stylesheet" href="css/plugins/font-awesome.css">
+		<link rel="stylesheet" href="css/plugins/font-awesome.min.css">
 		<link rel="stylesheet" href="css/plugins/magnific-popup.css">
 		<link rel="stylesheet" href="css/plugins/simplebar.css">
 		<link rel="stylesheet" href="css/plugins/owl.carousel.min.css">
 		<link rel="stylesheet" href="css/plugins/owl.theme.default.min.css">
 		<link rel="stylesheet" href="css/plugins/jquery.animatedheadline.css">
-
+		<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.7/css/all.css">
 		<!-- CSS Base -->
         <link rel="stylesheet" class="back-color" href="css/style-dark.css">
 		<link rel="stylesheet" href="css/style-demo.css">
@@ -33,40 +34,7 @@
     <body>
 
 		<!--Theme Options Start-->
-        <div class="style-options">
-            <div class="toggle-btn">
-                <span><i class="fas fa-cog"></i></span>
-            </div>
-            <div class="style-menu">
-                <div class="style-nav">
-                    <h4 class="mt-15 mb-10">Menu Position</h4>
-                    <ul>
-						<li><a href="css/settings/top-nav.css"><i class="fas fa-caret-up"></i> Top</a></li>
-                        <li><a href="css/settings/left-nav.css"><i class="fas fa-caret-left"></i> Left</a></li>
-                        <li><a href="css/settings/right-nav.css"><i class="fas fa-caret-right"></i> Right</a></li>
-                        <li><a href="css/settings/bottom-nav.css"><i class="fas fa-caret-down"></i> Bottom</a></li>
-                    </ul>
-                </div>
-				<div class="style-back">
-                    <h4 class="mt-85 mb-10">Style Color</h4>
-                    <ul>
-                        <li><a href="css/style-dark.css"><i class="fas fa-moon"></i> Dark</a></li>
-                        <li><a href="css/style-light.css"><i class="far fa-lightbulb"></i> Light</a></li>
-                    </ul>
-                </div>
-				<div class="style-color">
-                    <h4 class="mt-55 mb-10">Theme Color</h4>
-                    <ul>
-                        <li><a href="css/settings/green-color.css" style="background-color: #25ca7f;"></a></li>
-						<li><a href="css/settings/blue-color.css" style="background-color: #00a3e1;"></a></li>
-                        <li><a href="css/settings/red-color.css" style="background-color: #d94c48;"></a></li>
-                        <li><a href="css/settings/purple-color.css" style="background-color: #bb68c8;"></a></li>
-						<li><a href="css/settings/sea-color.css" style="background-color: #0dcdbd;"></a></li>
-                        <li><a href="css/settings/yellow-color.css" style="background-color: #eae328;"></a></li>
-                    </ul>
-                </div>
-            </div>
-        </div>
+       
 
 		<!-- Preloader -->
 		<div id="preloader">
@@ -139,14 +107,14 @@
 
 					<!-- Banner -->
 					<div class="banner">
-  						<h1>Impulse Agency</h1>
+  						<h1>Salaheddine El Bouhlali</h1>
 						<p class="cd-headline rotate-1">
-							<span>I am a</span>
+							<span>I am </span>
 							<span class="cd-words-wrapper">
-								<b class="is-visible">Developer</b>
-								<b>Photographer</b>
-								<b>Designer</b>
-								<b>Freelancer</b>
+								<b class="is-visible">Motivate</b>
+								<b > a Developer</b>
+								<b> a Designer</b>
+								<b> a Freelancer</b>
 							</span>
 						</p>
 					</div>
@@ -190,18 +158,15 @@
 								<div class="row">
 									<div class="col-lg-3 col-sm-4">
 										<div class="photo">
-											<img alt="" src="img/user-photo.jpg">
+											<img alt="" src="img/salah.jpg">
 										</div>
 									</div>
 									<div class="col-lg-9 col-sm-8">
-										<h4>Alex Smith</h4>
+										<h4>El Bouhlali Salaheddine</h4>
 										<div class="loc">
-											<i class="fas fa-map-marked-alt"></i> New York, USA
+											<i class="fas fa-map-marked-alt"></i> Brussel, Belgium
 										</div>
-										<p>Hello! I’m Alex Smith a self-taught & award winning Digital Designer & Developer with over five years  work experience. I started in my children’s room, got pro at renowned digital agencies akij co and nork blue lebel. Now I’m based in USA, America, working for Apple fredmansky and enjoying the life in the countryside.
-										</p>
-										<p>I have couple of hobbies but I like to travel. I have already travelled almost all the districts of our country with my father. I am fond of fruit.
-										</p>
+										<p>Hello! I am El Bouhlali Salaheddine, I am 24 years old, I am passionate about computers and learning new technologies. When I'm not studying I like to play soccer and read books. Most of my friends work or study in computer science, so I often talk about programming and computer science in general. And these discussions motivate me to develop my computer skills.</p>
 									</div>
 
 									<!-- Icon Info -->
@@ -209,7 +174,7 @@
                                 		<div class="info-icon">
                                      		<i class="fas fa-award"></i>
                                      		<div class="desc-icon">
-												<h6>8 Years Job</h6>
+												<h6>Junior</h6>
                                             	<p>Experience</p>
                                        		</div>
                                 		</div>
@@ -220,7 +185,7 @@
                                 		<div class="info-icon">
                                      		<i class="fas fa-certificate"></i>
                                      		<div class="desc-icon">
-												<h6>500+ Projects</h6>
+												<h6>5+ Projects</h6>
                                             	<p>Completed</p>
                                       		</div>
                                 		</div>
@@ -231,13 +196,13 @@
                                 		<div class="info-icon">
                                      		<i class="fas fa-user-astronaut"></i>
                                      		<div class="desc-icon">
-												<h6>Freelance</h6>
+												<h6>Employee</h6>
                                            		<p>Available</p>
                                         	</div>
                                 		</div>
                                 	</div>
 									<div class="col-lg-3 col-sm-12 pt-50">
-                                		<a href="#" class="btn-st">Download CV</a>
+                                		<a href="{{url('/medic','cvsalah.pdf')}}" class="btn-st">Download CV</a>
                                 	</div>
 								</div>
 							</div>
@@ -257,20 +222,20 @@
 						<div class="col-lg-12 col-sm-12">
 							<div class="box">
 								<div class="row">
-									<!-- Interests Item -->
+								
 									<div class="col-lg-3 col-sm-6">
 										<div class="inter-icon">
-                                     		<i class="fas fa-music"></i>
-                                    	 	<div class="desc-inter">
-												<h6>Music</h6>
-                               	        	</div>
-										</div>
+											<i class="fa fa-code" ></i>
+											<div class="desc-inter">
+												<h6>Programming</h6>
+											</div>
+                                		</div>
 									</div>
-
+									
 									<!-- Interests Item -->
 									<div class="col-lg-3 col-sm-6">
 										<div class="inter-icon">
-                                     		<i class="fas fa-route"></i>
+											<i class="fas fa-route"></i>
                                      		<div class="desc-inter">
 												<h6>Travelling</h6>
                                        		</div>
@@ -278,14 +243,7 @@
 									</div>
 
 									<!-- Interests Item -->
-									<div class="col-lg-3 col-sm-6">
-										<div class="inter-icon">
-                                 	    	<i class="far fa-image"></i>
-                                  		   	<div class="desc-inter">
-												<h6>Photos</h6>
-                                  	     	</div>
-                                		</div>
-									</div>
+								
 
 									<!-- Interests Item -->
 									<div class="col-lg-3 col-sm-6">
@@ -297,15 +255,8 @@
                                 		</div>
 									</div>
 
-									<!-- Interests Item -->
-									<div class="col-lg-3 col-sm-6">
-										<div class="inter-icon">
-                                 	    	<i class="fas fa-space-shuttle"></i>
-                                 	    	<div class="desc-inter">
-												<h6>Space</h6>
-                                	       	</div>
-                                		</div>
-									</div>
+									
+
 
 									<!-- Interests Item -->
 									<div class="col-lg-3 col-sm-6">
@@ -354,9 +305,10 @@
 						<!-- Service Item -->
 						<div class="col-lg-6 col-sm-6">
 							<div class="service box mb-40">
-								<i class="fas fa-desktop"></i>
-								<h4>Web Design</h4>
-								<p>Lorem Ipsum is simply dummy text of the Lorem has been the industry's standard dummy text ever.</p>
+								<i class="fa fa-line-chart"></i>
+
+								<h4>Analysis</h4>
+								<p>Ability to understand the customer's requirements and convert them into several tasks understandable by a developer</p>
 							</div>
 						</div>
 
@@ -364,17 +316,18 @@
 						<div class="col-lg-6 col-sm-6">
 							<div class="service box mb-40">
 								<i class="fas fa-cogs"></i>
-								<h4>Web Development</h4>
-								<p>Lorem Ipsum is simply dummy text of the Lorem has been the industry's standard dummy text ever.</p>
+								<h4>Programming</h4>
+								<p>Development of the tasks defined during the analysis, and implementation of tests.</p>
 							</div>
 						</div>
 
 						<!-- Service Item -->
 						<div class="col-lg-6 col-sm-6">
 							<div class="service box mb-40">
-								<i class="fas fa-mobile-alt"></i>
-								<h4>Responsive Design</h4>
-								<p>Lorem Ipsum is simply dummy text of the Lorem has been the industry's standard dummy text ever.</p>
+								<i class="fa fa-puzzle-piece" aria-hidden="true"></i>
+
+								<h4>Integration</h4>
+								<p>Integration of the developed solution in the customer's environment.</p>
 							</div>
 						</div>
 
@@ -382,8 +335,8 @@
 						<div class="col-lg-6 col-sm-6">
 							<div class="service box mb-40">
 								<i class="fas fa-medkit"></i>
-								<h4>quick Support</h4>
-								<p>Lorem Ipsum is simply dummy text of the Lorem has been the industry's standard dummy text ever.</p>
+								<h4>Quick Support</h4>
+								<p>Maintenance of the solution, intervention in case of bugs and addition of new features.</p>
 							</div>
 						</div>
 					</div>
@@ -452,127 +405,12 @@
 								</div>
 							</div>
 
-							<!-- Testimonail Item -->
-							<div class="testimonial-item">
-								<div class="media">
-									<img src="img/testimonials/testimonial-3.jpg" alt="">
-									<div class="content">
-										<h4>David Doe</h4>
-										<p>UI/UX Designer</p>
-									</div>
-									<ul class="rating">
-										<li><i class="far fa-star"></i></li>
-										<li><i class="far fa-star"></i></li>
-										<li><i class="far fa-star"></i></li>
-										<li><i class="far fa-star"></i></li>
-                                 	</ul>
-								</div>
-								<div class="comment pt-30">
-									<p>
-										Curabitur eleifend tempor gnceleris eget placeratvel phasellus eget
-										sem just metup consequat gestas facilisis eleifend posure tempor
-										metus sem just metup consequat gestas facilisis eleifend posures
-										temporureture.
-									</p>
-								</div>
-							</div>
+							
 						</div>
 					</div>
 
 					<!-- Price Row Start -->
-					<div class="row mt-100 mb-60">
-
-						<!-- Header Block -->
-						<div class="col-md-12">
-							<div class="header-box mb-90">
-								<h3>Price</h3>
-							</div>
-						</div>
-
-						<!-- Price Item -->
-						<div class="col-lg-4 col-sm-12">
-							<div class="price box">
-								<div class="head-price">
-									<i class="fa fa-user"></i>
-									<h4>Basic</h4>
-								</div>
-								<div class="body-price">
-									<div class="price-plan">
-										<span class="currency">$</span>
-										<span class="number">25</span>
-										<span class="period">month</span>
-									</div>
-									<div class="list-price">
-										<ul>
-											<li>Web Design</li>
-											<li>Web Development</li>
-											<li class="disable">Responsive Design</li>
-											<li class="disable">Game Development</li>
-										</ul>
-									</div>
-								</div>
-								<div class="footer-price">
-									<a href="#" class="btn-st">Buy Now</a>
-								</div>
-							</div>
-						</div>
-
-						<!-- Price Item -->
-						<div class="col-lg-4 col-sm-12">
-							<div class="price box">
-								<div class="head-price">
-									<i class="fa fa-briefcase"></i>
-									<h4>Standard</h4>
-								</div>
-								<div class="body-price">
-									<div class="price-plan">
-										<span class="currency">$</span>
-										<span class="number">40</span>
-										<span class="period">month</span>
-									</div>
-									<div class="list-price">
-										<ul>
-											<li>Web Design</li>
-											<li>Web Development</li>
-											<li>Responsive Design</li>
-											<li class="disable">Game Development</li>
-										</ul>
-									</div>
-								</div>
-								<div class="footer-price">
-									<a href="#" class="btn-st">Buy Now</a>
-								</div>
-							</div>
-						</div>
-
-						<!-- Price Item -->
-						<div class="col-lg-4 col-sm-12">
-							<div class="price box">
-								<div class="head-price">
-									<i class="fa fa-globe"></i>
-									<h4>Premium</h4>
-								</div>
-								<div class="body-price">
-									<div class="price-plan">
-										<span class="currency">$</span>
-										<span class="number">55</span>
-										<span class="period">month</span>
-									</div>
-									<div class="list-price">
-										<ul>
-											<li>Web Design</li>
-											<li>Web Development</li>
-											<li>Responsive Design</li>
-											<li>Game Development</li>
-										</ul>
-									</div>
-								</div>
-								<div class="footer-price">
-									<a href="#" class="btn-st">Buy Now</a>
-								</div>
-							</div>
-						</div>
-					</div>
+				
 			  	</section>
          	</div>
 
@@ -602,28 +440,29 @@
 								<!-- Experience Item -->
 								<div class="item">
 									<div class="main">
-										<h4>Web Design</h4>
-										<p><i class="far fa-calendar-alt"></i>2012 - 2014 | Сompany Inc</p>
+										<h4>Web Developer</h4>
+										<p><i class="far fa-calendar-alt"></i>Dec 2020 | Gluon</p>
 									</div>
-									<p>Work experience is essential for getting a job. Whether it's a short work placement or a longer internship, work experience is always viewed favourably by employers and can help you decide your future career.</p>
+									<p>Realization of a website that simulates the movement of electronic objects. And allows the user to send his simulation to the website manager.</p>
 								</div>
 
 								<!-- Experience Item -->
 								<div class="item">
 									<div class="main">
-										<h4>Fornt-End Developer</h4>
-										<p><i class="far fa-calendar-alt"></i>2014 - 2015 | Сompany Inc</p>
+										<h4>It Enthusiastic</h4>
+										<p><i class="far fa-calendar-alt"></i>2019-2020 | Gluon</p>
 									</div>
-									<p>Work experience is essential for getting a job. Whether it's a short work placement or a longer internship, work experience is always viewed favourably by employers and can help you decide your future career.</p>
+									<p>Train young people in new technologies such as 3D printing,
+										programming and Virtual Reality</p>
 								</div>
 
 								<!-- Experience Item -->
 								<div class="item">
 									<div class="main">
-										<h4>Web Development</h4>
-										<p><i class="far fa-calendar-alt"></i>2015 - 2019 | Сompany Inc</p>
+										<h4>Hackaton</h4>
+										<p><i class="far fa-calendar-alt"></i> Mar 2018 | Molengeek </p>
 									</div>
-									<p>Work experience is essential for getting a job. Whether it's a short work placement or a longer internship, work experience is always viewed favourably by employers and can help you decide your future career.</p>
+									<p>Creation of a baby for the hearing impaired during a hackaton co-organized by Samsung. Obtained the first place. </p>
 								</div>
 							</div>
 						</div>
@@ -641,28 +480,28 @@
 								<!-- Education Item -->
 								<div class="item">
 									<div class="main">
-										<h4>Phd</h4>
-										<p><i class="far fa-calendar-alt"></i>2011 - 2013 | Computer Science</p>
+										<h4>Bachelor</h4>
+										<p><i class="far fa-calendar-alt"></i>2018 - 2022 | Ephec</p>
 									</div>
-									<p>Work experience is essential for getting a job. Whether it's a short work placement or a longer internship, work experience is always viewed favourably by employers and can help you decide your future career.</p>
+									<p>This bachelor's degree in computer science in which I was able to develop my skills as an analyst-developer, allows me to take a big step towards the career to which I aspire. </p>
 								</div>
 
 								<!-- Education Item -->
 								<div class="item">
 									<div class="main">
 										<h4>Post Graduation</h4>
-										<p><i class="far fa-calendar-alt"></i>2013 - 2016 | Computer Science</p>
+										<p><i class="far fa-calendar-alt"></i>2018 | Molengeek</p>
 									</div>
-									<p>Work experience is essential for getting a job. Whether it's a short work placement or a longer internship, work experience is always viewed favourably by employers and can help you decide your future career.</p>
+									<p>Training in which I discovered my passion which is computer science. I was able to learn by practice with competent and passionate coach, How to develop websites whether in front- or back-end</p>
 								</div>
 
 								<!-- Education Item -->
 								<div class="item">
 									<div class="main">
-										<h4>Gradution</h4>
-										<p><i class="far fa-calendar-alt"></i>2016 - 2018 | Computer Science</p>
+										<h4>Secundary </h4>
+										<p><i class="far fa-calendar-alt"></i>2014 - 2016 | Campus St Jean</p>
 									</div>
-									<p>Work experience is essential for getting a job. Whether it's a short work placement or a longer internship, work experience is always viewed favourably by employers and can help you decide your future career.</p>
+									<p>Study in office automation in which I learned to work with methodology. Introduction to the Microsoft Office 365 suite.</p>
 								</div>
 							</div>
 						</div>
@@ -679,23 +518,13 @@
 						</div>
 					</div>
 
-					<div class="box skills">
+					<div class="box skills mb-3">
 						<div class="row">
 							<div class="col-lg-6 col-sm-6">
 
 								<!-- Skill Item -->
 								<div class="skill-item">
-									<h4 class="progress-title">HTML5</h4>
-									<div class="progress">
-										<div class="progress-bar" style="width:98%">
-											<div class="progress-value">98%</div>
-										</div>
-									</div>
-								</div>
-
-								<!-- Skill Item -->
-								<div class="skill-item">
-									<h4 class="progress-title">CSS3</h4>
+									<h4 class="progress-title">C#</h4>
 									<div class="progress">
 										<div class="progress-bar" style="width:85%">
 											<div class="progress-value">85%</div>
@@ -705,17 +534,27 @@
 
 								<!-- Skill Item -->
 								<div class="skill-item">
-									<h4 class="progress-title">JavaScript</h4>
+									<h4 class="progress-title">Java</h4>
 									<div class="progress">
-										<div class="progress-bar" style="width:90%">
-											<div class="progress-value">90%</div>
+										<div class="progress-bar" style="width:80%">
+											<div class="progress-value">80%</div>
 										</div>
 									</div>
 								</div>
 
 								<!-- Skill Item -->
 								<div class="skill-item">
-									<h4 class="progress-title">UI/UX designer</h4>
+									<h4 class="progress-title">JavaScript</h4>
+									<div class="progress">
+										<div class="progress-bar" style="width:80%">
+											<div class="progress-value">80%</div>
+										</div>
+									</div>
+								</div>
+
+								<!-- Skill Item -->
+								<div class="skill-item">
+									<h4 class="progress-title">Sql Server</h4>
 									<div class="progress">
 										<div class="progress-bar" style="width:77%">
 											<div class="progress-value">77%</div>
@@ -734,17 +573,17 @@
 
 									<!-- Skill Item -->
 									<div class="col-lg-6 col-sm-6">
-										<div class="chart" data-percent="70" data-bar-color="#fff"> 70% <p>Illustrator</p></div>
+										<div class="chart" data-percent="60" data-bar-color="#fff"> 60% <p>Git</p></div>
 									</div>
 
 									<!-- Skill Item -->
 									<div class="col-lg-6 col-sm-6">
-										<div class="chart" data-percent="60" data-bar-color="#fff"> 60% <p>Photoshop</p></div>
+										<div class="chart" data-percent="60" data-bar-color="#fff"> 60% <p>Angular</p></div>
 									</div>
 
 									<!-- Skill Item -->
 									<div class="col-lg-6 col-sm-6">
-										<div class="chart" data-percent="90" data-bar-color="#fff"> 90% <p>AngularJS</p></div>
+										<div class="chart" data-percent="70" data-bar-color="#fff"> 70% <p>Laravel</p></div>
 									</div>
 								</div>
 							</div>
@@ -752,65 +591,7 @@
 					</div>
 
 					<!-- Work Process Row Start -->
-					<div class="row mt-100">
-
-						<!-- Header Block -->
-						<div class="col-md-12">
-							<div class="header-box mb-50">
-								<h3>My Working Process</h3>
-							</div>
-						</div>
-					</div>
-
-					<div class="box work-process mb-100">
-						<div class="row">
-							<div class="col-lg-4 col-sm-12 ltr">
-
-                    			<!-- Working Process Item-->
-                          	 	<div class="single-wp width-sm process-1">
-									<p class="wp-step">01</p>
-									<h4 class="wp-title">Discuss idea</h4>
-									<p>I could describe these conceptions, also impress upon paper all that is living.</p>
-								</div>
-
-								<!-- Working Process Item-->
-								<div class="single-wp width-sm process-2">
-									<p class="wp-step">02</p>
-									<h4 class="wp-title">Creative concept</h4>
-									<p>I could describe these conceptions, also impress upon paper all that is living.</p>
-								</div>
-							</div>
-
-							<div class="col-lg-4 hidden-sm">
-
-								<!-- Working Process Circle-->
-								<div class="wp-circle">
-									<h4>Working Process</h4>
-									<span class="dots top-l"></span>
-									<span class="dots bottom-l"></span>
-									<span class="dots top-r"></span>
-									<span class="dots bottom-r"></span>
-								</div>
-							</div>
-
-							<div class="col-lg-4 col-sm-12 rtl">
-
-								<!-- Working Process Item-->
-								<div class="single-wp width-sm process-3">
-									<p class="wp-step">03</p>
-									<h4 class="wp-title">Web concept</h4>
-									<p>I could describe these conceptions, also impress upon paper all that is living.</p>
-								</div>
-
-								<!-- Working Process Item-->
-								<div class="single-wp width-sm process-4">
-									<p class="wp-step">04</p>
-									<h4 class="wp-title">Final concept</h4>
-									<p>I could describe these conceptions, also impress upon paper all that is living.</p>
-								</div>
-							</div>
-						</div>
-					</div>
+					
 			  	</section>
          	</div>
 
@@ -853,6 +634,16 @@
 							</figure>
 						</div>
                         @endforeach
+						<div class="item col-lg-4 col-sm-6 ">
+							<figure>
+								<img style="height: 350px;width: 350px" class="img-responsive" alt="" src="img/hospi.jpg">
+                                <figcaption>
+                                    <a href="{{url('/medic','AnalyseMaisonMedical.pdf')}}"></a>
+                                    <h3>Hospital Manager</h3>
+                                    <p>Web</p>
+                                </figcaption>
+							</figure>
+						</div>
 
 					</div>
 				</section>
@@ -964,13 +755,7 @@
 					</div>
 
 					<!--Google Map Start-->
-					<div class="google-map box mt-100 mb-100">
-						<div class="row">
-							<div class="col-lg-12">
-								<div id="map" data-latitude="40.712775" data-longitude="-74.005973" data-zoom="14"></div>
-							</div>
-						</div>
-					</div>
+					
             	</section>
           	</div>
 

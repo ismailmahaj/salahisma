@@ -39,11 +39,9 @@ class NotificationController extends Controller
      */
     public function store(Request $request)
     {
-
-        Mail::send(new ContactMail($request));
-        return "Go check your email inbox :)";
+        Mail::to('el.salaheddine159@gmail.com')->send(new ContactMail($request));
+        return redirect("/");
     }
-
     /**
      * Display the specified resource.
      *
